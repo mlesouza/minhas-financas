@@ -10,7 +10,8 @@ const MainHeader: React.FC = () => {
   }, []);
   return (
     <Container>
-      <Toggle></Toggle>
+      <div></div>
+      {/* <Toggle></Toggle> */}
       <Profile>
         <Welcome>Olá, {emoji}</Welcome>
         <UserName>Marcelo Souza</UserName>
